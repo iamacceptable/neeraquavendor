@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Neer Aqua Vendor</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="city">
+        <item>Delhi</item>
+        <item>Dehradun</item>
+        <item>Shimla</item>
+        <item>Baraut</item>
+    </string-array>
+    <string-array name="state">
+        <item>UP</item>
+        <item>UK</item>
+        <item>MP</item>
+        <item>Jharkhand</item>
+    </string-array>
+    <string name="prompt_city">Choose a City</string>
+    <string name="prompt_state">Choose a State</string>
+
+    <string name="FACEBOOK_APP_ID">466124737307217</string>
+    <string name="ACCOUNT_KIT_CLIENT_TOKEN">7adc7f2ddab76a36b899b049505c18b4</string>
+    <string name="msg_turn_internet_on">Please turn on your internet Connection to continue</string>
+    <string name="address">Address</string>
+    <string name="get_details">Get Details</string>
+    <string name="save_changes">Save Changes</string>
+    <string name="mobile">Mobile</string>
+    <string name="full_name">Full Name</string>
+
+</resources>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest package="com.vgeekers.panivendor"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="false"
+        android:icon="@mipmap/app_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/app_logo_circle"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".HomeActivity"></activity>
+        <activity android:name=".RejectPage"/>
+        <activity android:name=".AcceptPage"/>
+        <activity android:name=".Orders"/>
+        <activity android:name=".EditProfile"/>
+        <activity android:name=".Otp"/>
+        <activity android:name=".Authentication"/>
+        <activity android:name=".ForgotPassword"/>
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <action android:name="android.intent.action.VIEW"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainFragment"/>
+
+        <meta-data android:name="com.facebook.accountkit.ApplicationName"
+                   android:value="@string/app_name" />
+        <meta-data android:name="com.facebook.sdk.ApplicationId"
+                   android:value="@string/FACEBOOK_APP_ID" />
+        <meta-data android:name="com.facebook.accountkit.ClientToken"
+                   android:value="@string/ACCOUNT_KIT_CLIENT_TOKEN" />
+
+        <activity
+            android:name="com.facebook.accountkit.ui.AccountKitActivity" />
+
+    </application>
+
+</manifest>
